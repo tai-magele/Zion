@@ -1,0 +1,76 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, Sans-Serif; line-height: 24px;
+	background: #ffffff;
+}
+
+#container {
+	width: 1020px; margin: 0 auto; padding: 10px 0 0 0;
+}
+#header {
+	overflow: hidden;
+	padding: 0 0 50px 0;
+}
+
+#header h1 {
+	float: left;
+}
+/* categories div */
+#header ul#categories {
+		float: center; list-style: none;
+}
+#header ul#categories li {
+	float: left; margin: 0 0 0 40px;
+}
+#header ul#categories li a {
+	display: block;
+	font-size: 14px; font-weight: bold; text-transform: uppercase; color: #abb2b4;
+	text-shadow: 0 2px 0px #fff; text-decoration: none;
+}
+#header ul#categories li a:hover {
+	color: #211856;
+}
+/* login div */
+#header ul#login {
+		float: right; list-style: none;
+}
+#header ul#login li {
+	float: left; margin: 0 0 0 40px;
+}
+#header ul#login li a {
+	display: block;
+	font-size: 14px; font-weight: bold; text-transform: uppercase; color: #abb2b4;
+	text-shadow: 0 2px 0px #fff; text-decoration: none;
+}
+#header ul#login li a:hover {
+	color: #211856;
+}
+
+/* job_search div */
+
+/* just_for_you div */
+
+/* todays_tip div */
+
+/* job_talk div */
+
+/* max_employment div */
+
+/* footer div */
+#footer {
+	width: 1020px; margin: 0 auto; padding: 0 0 0 0; background: #171249;
+}
+#footer ul#credits {
+		float: center; list-style: disc;
+}
+#footer ul#credits li {
+	float: left; margin: 0 0 0 40px; color: 5148CC; background: #171249;
+}
+#footer ul#credits li a {
+	display: block; font-size: 10px; color: #ffffff; text-decoration: none;
+}
+#footer ul#credits li a:hover {
+	color: #211856;
